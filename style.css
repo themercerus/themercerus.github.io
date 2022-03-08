@@ -447,3 +447,19 @@ p {
 .duwag:hover > .desc {
 	opacity: 100;
 }
+
+.arrows {
+	display: flex;
+	max-width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	width: 20%;
+}
+
+.ar1 {
+	flex: 50%;
+}
+
+.ar2 {
+	flex: 50%;
+}
