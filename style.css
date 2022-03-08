@@ -206,6 +206,36 @@ p {
 	transform-origin: right;
 }
 
+.smog {
+	flex: 67%;
+	transition: transform 0.5s;
+	transform-origin: left;
+}
+
+.lys {
+	flex: 33%;
+	transition: transform 0.5s;
+	transform-origin: right;
+}
+
+.arcandor {
+	flex: 33%;
+	transition: transform 0.5s;
+	transform-origin: left;
+}
+
+.aegyptus {
+	flex: 33%;
+	transition: transform 0.5s;
+	transform-origin: center;
+}
+
+.tjara {
+	flex: 33%;
+	transition: transform 0.5s;
+	transform-origin: right;
+}
+
 .duwag {
 	max-width: 60%;
 	margin-left: 20%;
@@ -259,6 +289,26 @@ p {
 }
 
 .fantasia:hover {
+	transform: scale(1.1);
+}
+
+.smog:hover {
+	transform: scale(1.1);
+}
+
+.lys:hover {
+	transform: scale(1.1);
+}
+
+.arcandor:hover {
+	transform: scale(1.1);
+}
+
+.aegyptus:hover {
+	transform: scale(1.1);
+}
+
+.tjara:hover {
 	transform: scale(1.1);
 }
 
@@ -385,6 +435,51 @@ p {
 	margin-right: -5px;
 }
 
+.smog > .desc {
+	left: 100%;
+	top: -84%;
+	width: 60%;
+	font-size: 90%;
+	padding: 3px;
+	margin-left: -3px;
+}
+
+.lys > .desc {
+	left: -41%;
+	top: -76%;
+	width: 40%;
+	font-size: 80%;
+	padding: 3px;
+	margin-right: -5px;
+}
+
+.arcandor > .desc {
+	left: 100%;
+	top: -84%;
+	width: 60%;
+	font-size: 90%;
+	padding: 3px;
+	margin-right: -3px;
+}
+
+.aegyptus > .desc {
+	left: -60%;
+	top: -84%;
+	width: 60%;
+	font-size: 90%;
+	padding: 3px;
+	margin-right: -5px;
+}
+
+.tjara > .desc {
+	left: -60%;
+	top: -84%;
+	width: 60%;
+	font-size: 90%;
+	padding: 3px;
+	margin-right: -5px;
+}
+
 .duwag > .desc {
 	left: 100%;
 	top: -78%;
@@ -441,6 +536,26 @@ p {
 }
 
 .fantasia:hover > .desc {
+	opacity: 100;
+}
+
+.smog:hover > .desc {
+	opacity: 100;
+}
+
+.lys:hover > .desc {
+	opacity: 100;
+}
+
+.arcandor:hover > .desc {
+	opacity: 100;
+}
+
+.aegyptus:hover > .desc {
+	opacity: 100;
+}
+
+.tjara:hover > .desc {
 	opacity: 100;
 }
 
