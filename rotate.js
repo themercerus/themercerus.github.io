@@ -7,5 +7,5 @@ let rotation = 0;
         // 360 means rotate back to 0
         rotation = 0;
       }
-      document.querySelector("#abs").style.transform = `rotate(${rotation}deg)`;
+      document.querySelector(".abs").style.transform = `rotate(${rotation}deg)`;
     }
