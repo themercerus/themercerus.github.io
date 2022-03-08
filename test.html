@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>JavaScript rotate images</title>
+  </head>
+<body>
+  <img id="img" src="https://via.placeholder.com/350x150.png" />
+  <button onClick="rotateImg()">Rotate Image</button>
+  <script>
+    let rotation = 0;
+    function rotateImg() {
+      rotation += 90; // add 90 degrees, you can change this as you want
+      if (rotation === 360) { 
+        // 360 means rotate back to 0
+        rotation = 0;
+      }
+      document.querySelector("#img").style.transform = `rotate(${rotation}deg)`;
+    }
+  </script>
+</body>
