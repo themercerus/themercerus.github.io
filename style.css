@@ -602,13 +602,12 @@ transform: rotate(270deg);
 
 * {box-sizing: border-box;}
 
-.abs {
-	cursor: pointer;
+#abs {
 	transition: 0.3s;
 }
 
-.abs:hover {
-	transform: scale(2)!important;
-	}
+#abs:hover {
+	transform: scale(2);
+}
 
 
