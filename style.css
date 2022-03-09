@@ -255,6 +255,15 @@ p {
 	padding-bottom: 6px;
 }
 
+.munchkin {
+	flex: 25%;
+	transition: transform 0.5s;
+	transform-origin: center;
+	padding: 3px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
 .deck img {
 	padding: 0;
 	box-shadow: 0px 0px 3px;
