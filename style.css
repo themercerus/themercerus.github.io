@@ -269,6 +269,24 @@ p {
 	box-shadow: 0px 0px 3px;
 }
 
+.hor {
+	flex: 33%;
+	transition: transform 0.5s;
+	transform-origin: center;
+	padding: 3px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.ver {
+	flex: 25%;
+	transition: transform 0.5s;
+	transform-origin: center;
+	padding: 3px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
 
 .cannon:hover {
 	transform: scale(1.6);
