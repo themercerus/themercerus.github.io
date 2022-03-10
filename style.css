@@ -367,6 +367,23 @@ p {
    width: 100%;
 }
 
+.iframe-container2 {
+  overflow: hidden;
+  /* 16:9 aspect ratio */
+  padding-top: 85%;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.iframe-container2 iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
 
 .cannon:hover {
 	transform: scale(1.6);
