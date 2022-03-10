@@ -461,6 +461,10 @@ p {
 	transform: scale(1.2);
 }
 
+.munchkin:hover {
+	transform: scale(1.2);
+}
+
 .h3l:hover {
 	transform: scale(1.7)
 }
