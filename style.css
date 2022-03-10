@@ -269,22 +269,85 @@ p {
 	box-shadow: 0px 0px 3px;
 }
 
-.hor {
+.h3l {
+	flex: 33%;
+	transition: transform 0.5s;
+	transform-origin: left;
+	padding: 1px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.h3c {
 	flex: 33%;
 	transition: transform 0.5s;
 	transform-origin: center;
-	padding: 3px;
-	padding-top: 6px;
-	padding-bottom: 6px;
+	padding: 1px;
+	padding-top: 4px;
+	padding-bottom: 4px;
 }
 
-.ver {
+.h3r {
+	flex: 33%;
+	transition: transform 0.5s;
+	transform-origin: right;
+	padding: 1px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.h4l {
+	flex: 25%;
+	transition: transform 0.5s;
+	transform-origin: left;
+	padding: 1px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.h4c {
 	flex: 25%;
 	transition: transform 0.5s;
 	transform-origin: center;
-	padding: 3px;
-	padding-top: 6px;
-	padding-bottom: 6px;
+	padding: 1px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.h4r {
+	flex: 25%;
+	transition: transform 0.5s;
+	transform-origin: right;
+	padding: 1px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.v4l {
+	flex: 25%;
+	transition: transform 0.5s;
+	transform-origin: left;
+	padding: 1px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.v4c {
+	flex: 25%;
+	transition: transform 0.5s;
+	transform-origin: center;
+	padding: 1px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.v4r {
+	flex: 25%;
+	transition: transform 0.5s;
+	transform-origin: right;
+	padding: 1px;
+	padding-top: 4px;
+	padding-bottom: 4px;
 }
 
 
@@ -362,6 +425,42 @@ p {
 
 .deck:hover {
 	transform: scale(1.2);
+}
+
+.h3l:hover {
+	transform: scale(1.7)
+}
+
+.h3c:hover {
+	transform: scale(1.7)
+}
+
+.h3r:hover {
+	transform: scale(1.7)
+}
+
+.h4l:hover {
+	transform: scale(2.27)
+}
+
+.h4c:hover {
+	transform: scale(2.27)
+}
+
+.h4r:hover {
+	transform: scale(2.27)
+}
+
+.v4l:hover {
+	transform: scale(1.5)
+}
+
+.v4c:hover {
+	transform: scale(1.5)
+}
+
+.v4r:hover {
+	transform: scale(1.5)
 }
 
 .desc {
