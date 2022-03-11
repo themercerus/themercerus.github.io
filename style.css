@@ -9,10 +9,15 @@ html, body{
     scroll-behavior: smooth;
 }
 
+#title {
+	max-width: 100%;
+	width: 300px;
+	margin-top:1.5%;
+	margin-left: 4%;
+}
+
 .header {
 	background-color: #8accff;
-	padding-top: 30px;
-	padding-bottom: 7px;
 	margin: 0;
 }
 
@@ -25,7 +30,8 @@ html, body{
 }
 
 .header3 {
-	margin-left:180px;
+	margin-top: 10%;
+	margin-left:10%;
 	width: 900px;
 	max-width: 100%;
 	padding: 20px;
@@ -39,7 +45,6 @@ html, body{
   max-width: 100%;
   background-color: #ebf2ff;
   margin: auto;
-  padding-bottom: 200px;
 }
 
 .navbar {
@@ -115,7 +120,10 @@ p {
 
 .text {
 	max-width: 100%;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left:15px;
+	padding-right: 15px;
 	width: 900px;
 	margin-top: 15px;
 }
@@ -167,13 +175,13 @@ p {
 }
 
 .logo {
-	flex: 24%;
+	flex: 25%;
 	transition: transform 0.5s;
 	transform-origin: right;
 }
 
 .inpost {
-	flex: 76%;
+	flex: 75%;
 	transition: transform 0.5s;
 	transform-origin: left;
 }
@@ -209,13 +217,13 @@ p {
 }
 
 .smog {
-	flex: 67%;
+	flex: 66.5%;
 	transition: transform 0.5s;
 	transform-origin: left;
 }
 
 .lys {
-	flex: 33%;
+	flex: 33.5%;
 	transition: transform 0.5s;
 	transform-origin: right;
 }
@@ -503,175 +511,125 @@ p {
 
 .desc {
 	background-color: rgb(255,255,255,0.8);
-	display: inline-block;
-	position: relative;
-	z-index: 1;
+	position: absolute;
+	z-index: 2;
 	top: 0;
 	text-indent: 0;
 	opacity: 0;
 	transition: opacity 0.5s;
+	padding: 5px;
+	word-break: break-word;
 }
 
 .cannon > .desc {
 	left: 100%;
-	top: -75%;
-	width: 40%;
-	font-size: 60%;
-	padding: 3px;
-	margin-left: -3px;
+	width: 30%;
+	font-size: 10px;
 }
 
 .airship > .desc {
-	top: -75%;
-	left: -15%;
-	width: 15%;
-	font-size: 70%;
-	padding: 3px;
-	margin-right: -7px;
+	left: 2%;
+	top: 95%;
+	width: 40%;
+	font-size: 12px;
 }
 
 .owlqueen > .desc {
-	top: -78%;
-	left: 100%;
-	width: 60%;
-	font-size: 80%;
-	padding: 3px;
-	margin-left: -3px;
+	left: 99%;
+	width: 30%;
+	font-size: 12px;
 }
 
 .kalimatis > .desc {
-	left: -41%;
-	top: -78%;
-	width: 40%;
-	font-size: 80%;
-	padding: 3px;
-	margin-right: -5px;
+	right: 99%;
+	width: 35%;
+	font-size: 12px;
 }
 
 .chibi > .desc {
-	left: -41%;
-	top: -76%;
+	right: 99%;
 	width: 40%;
-	font-size: 80%;
-	padding: 3px;
-	margin-right: -5px;
+	font-size: 12px;
 }
 
 .inpost > .desc {
-	top: -4%;
-	left: 1%;
+	top: 97%;
+	left: 2%;
 	width: 40%;
-	font-size: 80%;
-	padding: 3px;
-	margin-right: -5px;
+	font-size: 12px;
 }
 
 .logo > .desc {
-	left: -40%;
-	top: -60%;
-	width: 40%;
-	font-size: 70%;
-	padding: 3px;
-	margin-right: -5px;
+	right: 99%;
+	width: 50%;
+	font-size: 10px;
 }
 
 .efa > .desc {
-	left: 100%;
-	top: -74%;
-	width: 40%;
-	font-size: 80%;
-	padding: 3px;
-	margin-left: -3px;
+	left: 99%;
+	width: 35%;
+	font-size: 11px;
 }
 
 .okto > .desc {
-	left: -40%;
-	top: -74%;
-	width: 40%;
-	font-size: 80%;
-	padding: 3px;
-	margin-right: -5px;
+	right: 99%;
+	width: 35%;
+	font-size: 11px;
 }
 
 .agate > .desc {
-	left: 100%;
-	top: -84%;
+	left: 99%;
 	width: 60%;
-	font-size: 90%;
-	padding: 3px;
-	margin-left: -3px;
+	font-size: 13px;
 }
 
 .szymix > .desc {
-	left: -60%;
-	top: -84%;
+	right: 99%;
 	width: 60%;
-	font-size: 90%;
-	padding: 3px;
-	margin-right: -5px;
+	font-size: 13px;
 }
 
 .fantasia > .desc {
-	left: -60%;
-	top: -84%;
+	right: 99%;
 	width: 60%;
-	font-size: 90%;
-	padding: 3px;
-	margin-right: -5px;
+	font-size: 13px;
 }
 
 .smog > .desc {
-	left: 100%;
-	top: -84%;
-	width: 60%;
-	font-size: 90%;
-	padding: 3px;
-	margin-left: -3px;
+	left: 99%;
+	width: 35%;
+	font-size: 13px;
 }
 
 .lys > .desc {
-	left: -41%;
-	top: -76%;
-	width: 40%;
-	font-size: 80%;
-	padding: 3px;
-	margin-right: -5px;
+	right: 99%;
+	width: 35%;
+	font-size: 13px;
 }
 
 .arcandor > .desc {
-	left: 100%;
-	top: -84%;
-	width: 60%;
-	font-size: 90%;
-	padding: 3px;
-	margin-right: -3px;
+	left: 99%;
+	width: 50%;
+	font-size: 13px;
 }
 
 .aegyptus > .desc {
-	left: -60%;
-	top: -84%;
-	width: 60%;
-	font-size: 90%;
-	padding: 3px;
-	margin-right: -5px;
+	right: 99%;
+	width: 50%;
+	font-size: 13px;
 }
 
 .tjara > .desc {
-	left: -60%;
-	top: -84%;
-	width: 60%;
-	font-size: 90%;
-	padding: 3px;
-	margin-right: -5px;
+	right: 99%;
+	width: 50%;
+	font-size: 13px;
 }
 
 .duwag > .desc {
-	left: 100%;
-	top: -78%;
+	left: 99%;
+	top: 0;
 	width: 20%;
 	font-size: 60%;
-	padding: 3px;
-	margin-left: -3px;
 }
 
 .cannon:hover > .desc {
@@ -753,10 +711,24 @@ p {
 	max-width: 100%;
 	margin-right: auto;
 	margin-left: auto;
-	width: 20%;
-	background-color: #4CAF50; /* Green */
+	width: 100px;
+	background-color: rgba(0,0,0,0);
     border: none;
     color: white;
+}
+
+#arrow {
+	max-width: 100%;
+	width: 60px;
+	
+}
+
+#rot:hover {
+	cursor: pointer;
+}
+
+#arrow:hover {
+	opacity: 50%;
 }
 
 
@@ -770,4 +742,18 @@ p {
 	transform: scale(2);
 }
 
+#footer {
+	background-color: #3a67c2;
+	padding: 5px;
+	margin-top: -20px;
+	text-align: right;
+	text-decoration: none; 
+	font-family: Georgia, serif;
+	color: #ffffff;
+}
+
+#footer p {
+	font-family: Georgia, serif;
+	padding-right: 3%;
+}
 
