@@ -32,7 +32,6 @@ html, body{
 .header3 {
 	margin-top: 10%;
 	margin-left:10%;
-	width: 900px;
 	max-width: 100%;
 	padding: 20px;
 	font-family: Garamond, serif;
@@ -148,102 +147,119 @@ p {
 	flex: 34%;
 	transition: transform 0.5s;
 	transform-origin: top left;
+	position: relative;
 }
 
 .airship {
 	flex: 66%;
 	transition: transform 0.5s;
 	transform-origin: top right;
+	position: relative;
 }
 
 .owlqueen {
 	flex: 30%;
 	transition: transform 0.5s;
 	transform-origin: left;
+	position: relative;
 }
 
 .kalimatis {
 	flex: 38%;
 	transition: transform 0.5s;
 	transform-origin: center;
+	position: relative;
 }
 
 .chibi {
 	flex: 32%;
 	transition: transform 0.5s;
 	transform-origin: right;
+	position: relative;
 }
 
 .logo {
 	flex: 25%;
 	transition: transform 0.5s;
 	transform-origin: right;
+	position: relative;
 }
 
 .inpost {
 	flex: 75%;
 	transition: transform 0.5s;
 	transform-origin: left;
+	position: relative;
 }
 
 .efa {
 	flex: 50%;
 	transition: transform 0.5s;
 	transform-origin: left;
+	position: relative;
 }
 
 .okto {
 	flex: 50%;
 	transition: transform 0.5s;
 	transform-origin: right;
+	position: relative;
 }
 
 .agate {
 	flex: 33%;
 	transition: transform 0.5s;
 	transform-origin: left;
+	position: relative;
 }
 
 .szymix {
 	flex: 33%;
 	transition: transform 0.5s;
 	transform-origin: center;
+	position: relative;
 }
 
 .fantasia {
 	flex: 33%;
 	transition: transform 0.5s;
 	transform-origin: right;
+	position: relative;
 }
 
 .smog {
 	flex: 66.5%;
 	transition: transform 0.5s;
 	transform-origin: left;
+	position: relative;
 }
 
 .lys {
 	flex: 33.5%;
 	transition: transform 0.5s;
 	transform-origin: right;
+	position: relative;
 }
 
 .arcandor {
 	flex: 33%;
 	transition: transform 0.5s;
 	transform-origin: left;
+	position: relative;
 }
 
 .aegyptus {
 	flex: 33%;
 	transition: transform 0.5s;
 	transform-origin: center;
+	position: relative;
 }
 
 .tjara {
 	flex: 33%;
 	transition: transform 0.5s;
 	transform-origin: right;
+	position: relative;
 }
 
 .duwag {
@@ -252,6 +268,7 @@ p {
 	margin-right: 5%;
 	transition: transform 0.5s;
 	transform-origin: 80% 0%;
+	position: relative;
 }
 
 .deck {
